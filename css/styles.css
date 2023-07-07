@@ -1,0 +1,22 @@
+body{
+    background-color: #FFF4E0;
+}
+
+h2{
+    color: #CA965C;
+}
+h1{
+    color: #CA965C;
+}
+
+
+hr {
+    border-style: none;
+    border-top-style: dotted;
+    border-color: #C58940;
+    border-width: 2.3px;
+    width: 20%;
+}
+.mypick:hover{
+    transform: scale(1.2);
+}
