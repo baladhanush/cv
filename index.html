@@ -1,56 +1,167 @@
 <!DOCTYPE html>
 <html lang="en">
- <head>
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ⓑ bala's personal site </title>
-    <link rel="stylesheet" href="css/styles.css">
- </head>
- <body>
-  <table>
-    <tr>
-      <td><img class="mypick" src="bala img-modified (1).png" alt="profile picture" width="150" height="150"> </td>
-      <td><h1>Bala murugan.v</h1>   
-        <p><em>So For completed <strong>BE Mechanical Engineering</strong></em> </p>
-        <p>I am completed <strong>BE Mechanical Engineering</strong> on 2023 after that learning about web developing and I love ♥ to ride bikes and learn about bike engine and I have a <a href="https://www.youtube.com/channel/UCiw0Jcy0_IwunYDjCWiTpHg" ><strong>Youtube Channel</strong></a>.</p> </td>
-    </tr>
-   </table>
-   <hr>
-   <h2>Education</h2>
-   <ul>
-    <li>Completed 10^th in Velammal Metric Higher Secondary School on <strong>2017</strong> </li>
-    <li>Completed Diploma in Mechanical Engineering in TJS Polytechnic College on <strong>2020</strong></li>
-    <li>Completed BE Mechanical Engineering in ST.Joseph College Of Engineering on <strong>2023</strong></li>
-   </ul>
-   <hr >
-   <h2>Hobbies</h2>
-   <ol>
-    <li>💻Coding</li>
-    <li>🛵MotorCycles</li>
-    <li>🏏cricket</li>
+    <link rel="icon" href="images/favicon-32x32.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Montserrat:ital@1&family=Sacramento&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<script src="https://kit.fontawesome.com/e2bccb7122.js" crossorigin="anonymous"></script>
+    <title>Tindog</title>
+</head>
+<body>
+    <div class="container-fluid">
+    <section id="title">  
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <a class="navbar-brand" href="#">Tindog</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav ml-auto">
+            <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
+            <a class="nav-item nav-link" href="#features">Features</a>
+            <a class="nav-item nav-link" href="#priceing">Pricing</a>
+            <a class="nav-item nav-link" href="#footer">Contact</a>
+          </div>
+        </div>
+        </nav>
+      </nav>
+      <div class="row">
+        <div class="col-lg-6">
+        <h1><strong>Meet new and interesting dogs nearby.</strong></h1>
+        <button type="botton"class="btn btn-dark btn-lg download-button"><i class="fa-brands fa-apple fa-20xs" style="color: #eff0f3;"></i> Download </button>
+        <button type="botton"class="btn btn-outline-light btn-lg download-button"><i class="fa-brands fa-google-play"></i> Download </button>
+        </div>
+      <div class="col-lg-6">
+        <img class="img-1" src="images/profile img.jpg" width="60%" alt="dog-pic">
+    </div>
+    </div>
+    </div>
+</section>
+     <section id="features">
+        <div class="row">
+        <div class="features-text col-lg-4">
+          <div class="paint"> <i class="fa-solid fa-check-to-slot fa-2xl" style="color: #4cca16;"></i></div>
+            <h3>Easy to use.</h3>
+        <p>So easy to use, even your dog could do it.</p>
+        </div>
+        <div class="features-text  col-lg-4">
+           <div class="paint"><i class="fa-solid fa-bullseye fa-2xl" style="color: #0b62f9;"></i></div>
+            <h3>Elite Clientele</h3>
+        <p>We have all the dog's. The greatest dogs.</p>
+
+        </div>
+        <div class="features-text  col-lg-4">
+          <div class="paint"> <i class="fa-solid fa-heart-pulse fa-2xl" style="color: #ce0d17;"></i> </div>
+            <h3>Guaranteed to Work.</h3>
+        <p>Find the love of your dog's life or your money back.</p>
+    </div>
+    </div>
+</section>
+
+<section id="testimonials">
+  <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators">
+      <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+     
     </ol>
-    <hr>
-   <h2>Skills</h2>
-  <table>
-      <tr>
-        <td>Bootstrap Framework</td>
-        <td> ⭐⭐⭐⭐⭐</td>
-      </tr>
-      <tr>
-        <td>CSS</td>
-        <td>⭐⭐⭐⭐⭐</td>
-      </tr>
-      <tr>
-        <td>HTML(5)</td>
-        <td>⭐⭐⭐⭐⭐</td>
-      </tr>
-      <tr>
-        <td>JavaScript</td>
-        <td>⭐⭐⭐⭐</td>
-      </tr>
-    </table>
-    <hr>
-    <h3><a href="my details.html">Contact Details </a></h3>
-    <h3><a href="contactme.html" >Sumit Your Detailas</a></h3>
- </body>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <h2>I no longer have to sniff others dogs for love. I've found the hottest corgi on Tindog. Woof.</h2>
+    <img class="img-2" src="images/dog2.jpg" width="10%" alt="pebbles-pic">
+    <em>Pebbles ,New York</em>
+      </div>
+      <div class="carousel-item">
+        <h2 class="testimonial-text">My dog used to be so lonely, but with Tindog's help,they've found the love of their life.I think.  </h2>
+        <img class="img-2" src="images/profile2.jpg" width="10%" alt="profilepic">
+        <em>Bevery, Illinois</em>
+      </div>
+    </div>
+    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+</section>
+<section id="priceing">
+
+  <h2>A plan for Every Dog's Needs</h2>
+  <p>Simple and affordable price for your dog.</p>
+  <div class="row">
+<div class="col-lg-4 col-md-6">
+  <div class="card mb-4 box-shadow ">
+    <div class="card-header">
+      <h4 class="my-0 font-weight-normal"><h3>Chihuahua</h3></h4>
+    </div>
+    <div class="card-body">
+      <h1 class="card-title pricing-card-title">$0 <small class="text-muted">/ month</small></h1>
+      <h2>Free</h2>
+  <p>5 Matches Per Day</p>
+  <P>10 Messages Per Day</P>
+  <p>Unlimited App Usage</p>
+  <button type="button"  class="btn btn-primary btn-lg btn-block" >Sign Up</button>
+        
+    </div>
+  </div>
+  </div>
+  <div class="col-lg-4 col-md-6">
+  <div class="card mb-4 box-shadow">
+    <div class="card-header">
+      <h4 class="my-0 font-weight-normal"> <h3>Labrador</h3></h4>
+    </div>
+    <div class="card-body">
+      <h1 class="card-title pricing-card-title">$49 <small class="text-muted">/month</small></h1>
+      <p>Unlimited Matches</p>
+      <p>Unlimited Messages</p>
+      <p>Unlimited App Usage</p>
+      <button type="button"  class="btn btn-primary btn-lg btn-block">Sign UP</button>
+    </div>
+  </div>
+</div>
+<div class="col-lg-4 col-md-12">
+  <div class="card mb-4 box-shadow">
+    <div class="card-header">
+      <h4 class="my-0 font-weight-normal"><h3>Mastiff</h3></h4>
+    </div>
+    <div class="card-body">
+      <h1 class="card-title pricing-card-title">$99 <small class="text-muted">/month</small></h1>
+      <p>Pirority Listing</p>
+      <p>Unlimited Matches</p>
+      <p>Unlimited Messages</p>
+      <p>Unlimited App Usage</p>
+      <button type="button" class="btn btn-primary btn-lg btn-block">Sign UP</button>
+    
+    </div>
+  </div>
+  </div>
+  </div>
+</section>
+<section id="last">
+<h3 class="dog"><strong>Find the True Love Of Your Dog's Life Today.</strong> </h3>
+  <button type="botton"class="btn btn-dark btn-lg download-button"><i class="fa-brands fa-apple fa-20xs" style="color: #eff0f3;"></i> Download </button>
+  <button type="botton"class="btn btn-light btn-lg download-button"><i class="fa-brands fa-google-play"></i> Download </button>
+</section>
+
+<footer id="footer">
+  <i class="social-icon fa-brands fa-facebook" style="color: #185bcd;"></i>
+  <i class="social-icon fa-brands fa-twitter" style="color: #43b2ea;"></i>
+  <i class="social-icon fa-brands fa-instagram" style="color: #ec3257;"></i>
+  <i class="social-icon fa-solid fa-envelope" style="color: #292929;"></i>
+  <p>© copyright 2023 TinDog</p>
+</footer>
+
+
+</body>
 </html>
